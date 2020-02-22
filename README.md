@@ -21,26 +21,19 @@ The purpose of this project was to become familiar with the Bulk Meteorology Ins
     -	When it is not windy and not rainy.
 
 2.	Plot the cross-correlation function between wind speeds at both sites.
-
-a.	What is the highest correlation?
-
-b.	What is the time lag?
+    - What is the highest correlation?
+    - What is the time lag?
 
 3.	Plot the cross-correlation function between rain rates at both sites.
-
-a.	What is the highest correlation?
-
-b.	What is the time lag?
+    - What is the highest correlation?
+    - What is the time lag?
 
 4.	Is there any relationship between the time lag of wind speed and rain rate?
 
 5.	Calculate and plot the monthly average of the wind speed and rain rate for each site.
-
-a.	What pattern do you see? Explain.
-
-b.	Which month had the highest rain rate? Which had the lowest?
-
-c.	Which month had the highest wind speed? Which had the lowest?
+    - What pattern do you see? Explain.
+    - Which month had the highest rain rate? Which had the lowest?
+    - Which month had the highest wind speed? Which had the lowest?
 
 
 BACKGROUND
