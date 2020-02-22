@@ -15,21 +15,37 @@ PROBLEM STATEMENT
 The purpose of this project was to become familiar with the Bulk Meteorology Instrument Package and how to use the data it presents. The two instrument sites of interest for the project were the Oregon Shelf Surface Mooring (Shelf) and the Oregon Offshore Surface Mooring (Offshore), both of which have data available on the Ocean Observatory Initiative website (OOI) [1]. Using one years’ worth of available data, the following tasks were performed and questions answered:
 
 1.	For each site, plot wind speed( m/s) and rain rate (mm/hr) for these time windows:
+
 a.	When it is windy and rainy,
+
 b.	When it is rainy but not windy,
+
 c.	When it is windy but not rainy,
+
 d.	When it is not windy and not rainy.
+
 2.	Plot the cross-correlation function between wind speeds at both sites.
+
 a.	What is the highest correlation?
+
 b.	What is the time lag?
+
 3.	Plot the cross-correlation function between rain rates at both sites.
+
 a.	What is the highest correlation?
+
 b.	What is the time lag?
+
 4.	Is there any relationship between the time lag of wind speed and rain rate?
+
 5.	Calculate and plot the monthly average of the wind speed and rain rate for each site.
+
 a.	What pattern do you see? Explain.
+
 b.	Which month had the highest rain rate? Which had the lowest?
+
 c.	Which month had the highest wind speed? Which had the lowest?
+
 
 BACKGROUND
 
