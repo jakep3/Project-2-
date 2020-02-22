@@ -64,13 +64,13 @@ __Figure 2:__ Wind speed and rain rate for one year for Offshore.
  
 ![](3.jpg) 
 
-__Figure 3:__ The top plot is wind speeds vs time. The lower plot is cross-correlation vs lag.
+__Figure 3:__ The top plot is wind speeds vs time (sec). The lower plot is cross-correlation vs lag (sec).
 
 3.	The plot of the cross-correlation function between rain rates at both sites can be seen below in Figure 4. The highest correlation is 0.582 and the time lag is 0. These values were able to be found using Jupyter Notebook functions.
 
 ![](4.jpg)
 
-__Figure 4:__ The top plot is rain rates vs time. The lower plot is cross-correlation vs lag.
+__Figure 4:__ The top plot is rain rates vs time(sec). The lower plot is cross-correlation vs lag (sec).
 
 4.	For both wind speed and rain rate for the two site, their maximum correlations occur at time lag = 0. This indicates a relationship that the two sites do not lag for both wind speed data and rain rate data. 
 
