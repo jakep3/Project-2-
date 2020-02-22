@@ -39,8 +39,8 @@ The purpose of this project was to become familiar with the Bulk Meteorology Ins
 BACKGROUND
 
 The Bulk Meteorology Instrument Package measures a variety of parameters that characterize weather conditions above the sea surface, including wind speed at the surface and rain rate. The Ocean Observatories Initiative has many research devices that can be explored and whose data can be downloaded and examined on their website. The instruments of interest for this project are the Bulk Meteorology Instrument Packages for the following:
- •	Oregon Shelf Surface Mooring
- •	Oregon Offshore Surface Mooring
+  - Oregon Shelf Surface Mooring
+  - Oregon Offshore Surface Mooring
 
 SOLUTION 
 
