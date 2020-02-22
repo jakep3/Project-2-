@@ -14,7 +14,7 @@ __PROBLEM STATEMENT__
 
 The purpose of this project was to become familiar with the Bulk Meteorology Instrument Package and how to use the data it presents. The two instrument sites of interest for the project were the Oregon Shelf Surface Mooring (Shelf) and the Oregon Offshore Surface Mooring (Offshore), both of which have data available on the Ocean Observatory Initiative website (OOI) [1]. Using one years’ worth of available data, the following tasks were performed and questions answered:
 
-1.	For each site, plot wind speed( m/s) and rain rate (mm/hr) for these time windows:
+1.	For each site, plot wind speed (m/s) and rain rate (mm/hr) for these time windows:
     -	When it is windy and rainy,
     -	When it is rainy but not windy,
     -	When it is windy but not rainy,
@@ -54,36 +54,36 @@ __RESULTS__
 
 ![](1.jpg)
 
-__Figure 1:__ Wind speed and rain rate for one year for Shelf.
+__Figure 1:__ Wind speed and rain rate for one year for the Shelf site.
 
 ![](2.jpg)
 
-__Figure 2:__ Wind speed and rain rate for one year for Offshore.
+__Figure 2:__ Wind speed and rain rate for one year for the Offshore site.
 
 2.	The plot of the cross-correlation function between wind speeds at both sites can be seen below in Figure 3. The highest correlation is 0.721 and the time lag is 0. These values were able to be found using Jupyter Notebook functions.  
  
 ![](3.jpg) 
 
-__Figure 3:__ The top plot is wind speeds vs time (sec). The lower plot is cross-correlation vs lag (sec).
+__Figure 3:__ The top plot is wind speeds vs time. The lower plot is cross-correlation vs lag (sec).
 
 3.	The plot of the cross-correlation function between rain rates at both sites can be seen below in Figure 4. The highest correlation is 0.582 and the time lag is 0. These values were able to be found using Jupyter Notebook functions.
 
 ![](4.jpg)
 
-__Figure 4:__ The top plot is rain rates vs time(sec). The lower plot is cross-correlation vs lag (sec).
+__Figure 4:__ The top plot is rain rates vs time. The lower plot is cross-correlation vs lag (sec).
 
-4. The wind speed cross correlation vs lag graph shows a normal distribution, with the maximum correlation at time lag zero. The rain rate cross correlation vs lag graph shows three normal distributions; one centered between -1000 and -750, one centered between -250 and 250, and the third centered between 750 and 1000, and maximum correlation at time lag zero. For both wind speed and rain rate for the two site, their maximum cross-correlations occur at time lag = 0. However, I do not think this is a strong relationship and I do not see any other relationships between the time lag of wind speed and rain rate. 
+4. The wind speed cross correlation vs lag graph shows a normal distribution, with the maximum correlation at time lag zero. The rain rate cross correlation vs lag graph shows three normal distributions; one centered between -1000 and -750, one centered between -250 and 250, and the third centered between 750 and 1000. Also, the maximum correlation is at time lag zero. For both wind speed and rain rate for the two site, their maximum cross-correlations occur at time lag = 0. However, I do not think this is a strong relationship and I do not see any other relationships between the time lag of wind speed and rain rate. 
 
 5.	Figure 5 and 6 will show the plots for the monthly averages of wind speed and rain rate for the Shelf site and Offshore site respectively. The pattern that is apparent for both of the sites is that wind speed and rain rate increase and decrease together. This means that when wind speed increases or decreases, the rain rate increases or decreases. This appears to be the trend; however they do not move on the same scale. The pattern is apparent on the figures to follow.
 For both sites, the highest rain rates and wind speed rates occurred in during the winter months and the lowest rates occurred during the late summer and early fall months. More specifically, for the Shelf site; the highest wind speed and rain rate occurred in January and February respectively; and the lowest wind speed and rain rate were both in August. For the Offshore site; the highest wind speed and rain rate occurred January and December respectively; and the lowest wind speed and rain rate were in September and August respectively. A summary of the months and associated values can be seen in Table 1 for both Shelf and Offshore.
 
 ![](5.jpg)
 
-__Figure 5:__ The monthly average values for wind speed and rain rate at Shelf.
+__Figure 5:__ The monthly average values for wind speed and rain rate at the Shelf site.
 
 ![](6.jpg)
 
-__Figure 6:__ The monthly average values for wind speed and rain rate at Offshore.
+__Figure 6:__ The monthly average values for wind speed and rain rate at the Offshore site.
 
 ![](7.jpg) 
 
