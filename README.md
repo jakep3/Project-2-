@@ -8,21 +8,17 @@ BME 450
 
 2/20/2020
 
-Project 2: Meteorology Instrument Package Assignment
+                                   Project 2: Meteorology Instrument Package Assignment
 
 PROBLEM STATEMENT 
 
 The purpose of this project was to become familiar with the Bulk Meteorology Instrument Package and how to use the data it presents. The two instrument sites of interest for the project were the Oregon Shelf Surface Mooring (Shelf) and the Oregon Offshore Surface Mooring (Offshore), both of which have data available on the Ocean Observatory Initiative website (OOI) [1]. Using one years’ worth of available data, the following tasks were performed and questions answered:
 
 1.	For each site, plot wind speed( m/s) and rain rate (mm/hr) for these time windows:
-
-a.	When it is windy and rainy,
-
-b.	When it is rainy but not windy,
-
-c.	When it is windy but not rainy,
-
-d.	When it is not windy and not rainy.
+   a.	When it is windy and rainy,
+   b.	When it is rainy but not windy,
+   c.	When it is windy but not rainy,
+   d.	When it is not windy and not rainy.
 
 2.	Plot the cross-correlation function between wind speeds at both sites.
 
