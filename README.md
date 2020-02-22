@@ -39,13 +39,15 @@ The purpose of this project was to become familiar with the Bulk Meteorology Ins
 BACKGROUND
 
 The Bulk Meteorology Instrument Package measures a variety of parameters that characterize weather conditions above the sea surface, including wind speed at the surface and rain rate. The Ocean Observatories Initiative has many research devices that can be explored and whose data can be downloaded and examined on their website. The instruments of interest for this project are the Bulk Meteorology Instrument Packages for the following:
-•	Oregon Shelf Surface Mooring
-•	Oregon Offshore Surface Mooring
+ •	Oregon Shelf Surface Mooring
+ •	Oregon Offshore Surface Mooring
 
 SOLUTION 
+
 The solution to complete the tasks and answer the questions began by visiting the OOI website and obtaining one year of data for each instrument. The data was extracted through M2M and is accessible directly though Jupyter Notebook. In Jupyter Notebook, all the data was able to be analyzed and used to obtain the results. Results largely came from evaluating the data and plots, and allowed for the trends to be viewed and explained. Please refer to the link at the beginning of the paper to view the Jupyter Notebook if interested in the specific code that allowed for data extraction and the derivation of the results. 
  
 RESULTS
+
 (The data used uses the time frame: January-01-2019 to January-01-2020). 
 
 1.	The rain rates and wind speeds with respect to time were able to be compiled into arrays and plotted. The data points plotted identify the following conditions; windy and rainy, rainy but not windy, windy but not rainy, and not rainy and not windy. See Figure 1 for Shelf results and see Figure 2 for Offshore results.
