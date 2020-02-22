@@ -1,5 +1,5 @@
-Link to Jupyter Notebook on GitHub:
-https://github.com/jakep3/Project-2-/blob/master/Project_2_Philpott_Meteorology.ipynb
+__Link to Jupyter Notebook on GitHub:
+https://github.com/jakep3/Project-2-/blob/master/Project_2_Philpott_Meteorology.ipynb__
 
 
 Jake Philpott
@@ -42,29 +42,35 @@ RESULTS
 (The data used uses the time frame: January-01-2019 to January-01-2020). 
 
 1.	The rain rates and wind speeds with respect to time were able to be compiled into arrays and plotted. The data points plotted identify the following conditions; windy and rainy, rainy but not windy, windy but not rainy, and not rainy and not windy. See Figure 1 for Shelf results and see Figure 2 for Offshore results.
- 
+
+![](1.jpg)
 Figure 1: Wind speed and rain rate for one year for Shelf.
- 
+
+![](2.jpg)
 Figure 2: Wind speed and rain rate for one year for Offshore.
 
 2.	The plot of the cross-correlation function between wind speeds at both sites can be seen below in Figure 3. The highest correlation is 0.721 and the time lag is 0. These values were able to be found using Jupyter Notebook functions.  
  
+![](3.jpg) 
 Figure 3: The top plot is wind speeds vs time. The lower plot is cross-correlation vs lag.
 
 3.	The plot of the cross-correlation function between rain rates at both sites can be seen below in Figure 4. The highest correlation is 0.582 and the time lag is 0. These values were able to be found using Jupyter Notebook functions.
- 
+
+![](4.jpg)
 Figure 4: The top plot is rain rates vs time. The lower plot is cross-correlation vs lag.
 
 4.	For both wind speed and rain rate for the two site, their maximum correlations occur at time lag = 0. This indicates a relationship that the two sites do not lag for both wind speed data and rain rate data. 
 
 5.	Figure 5 and 6 will show the plots for the monthly averages of wind speed and rain rate for the Shelf site and Offshore site respectively. The pattern that is apparent for both of the sites is that wind speed and rain rate increase and decrease together. This means that when wind speed increases or decreases, the rain rate increases or decreases. This appears to be the trend; however they do not move on the same scale. The pattern is apparent on the figures to follow.
 For both sites, the highest rain rates and wind speed rates occurred in during the winter months and the lowest rates occurred during the late summer and early fall months. More specifically, for the Shelf site; the highest wind speed and rain rate occurred in January and February respectively; and the lowest wind speed and rain rate were both in August. For the Offshore site; the highest wind speed and rain rate occurred January and December respectively; and the lowest wind speed and rain rate were in September and August respectively. A summary of the months and associated values can be seen in Table 1 for both Shelf and Offshore.
- 
+
+![](5.jpg)
 Figure 5: The monthly average values for wind speed and rain rate at Shelf.
- 
+
+![](6.jpg)
 Figure 6: The monthly average values for wind speed and rain rate at Offshore.
 
- 
+![](7.jpg) 
 Table 1: The highest and lowest values, with associated months, for wind speed and rain rate for the Shelf site and Offshore site. 
 
 CONCLUSIONS
